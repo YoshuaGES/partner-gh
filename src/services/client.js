@@ -31,9 +31,6 @@ export const imageClient1 = [
     id: 8,
     title: "/public/Logo/Client Logo/client8.png",
   },
-];
-
-export const imageClient2 = [
   {
     id: 9,
     title: "/public/Logo/Client Logo/client9.png",
@@ -66,9 +63,9 @@ export const imageClient2 = [
     id: 16,
     title: "/public/Logo/Client Logo/client16.png",
   },
-];
+]
 
-export const imageClient3 = [
+export const imageClient2 = [
   {
     id: 17,
     title: "/public/Logo/Client Logo/client17.png",
@@ -101,9 +98,6 @@ export const imageClient3 = [
     id: 24,
     title: "/public/Logo/Client Logo/client24.png",
   },
-];
-
-export const imageClient4 = [
   {
     id: 25,
     title: "/public/Logo/Client Logo/client25.png",
@@ -136,4 +130,4 @@ export const imageClient4 = [
     id: 32,
     title: "/public/Logo/Client Logo/client32.png",
   },
-];
+]
