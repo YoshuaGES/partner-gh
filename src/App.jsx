@@ -12,11 +12,11 @@ import { imageVendor2 } from "./services/vendor.js";
 
 const App = () => {
   return (
-    <div className="bg-gray-100 p-20 min-h-screen">
-      <h1 className="font-poppins text-2xl font-bold text-center p-20">
+    <div className="bg-gray-100 p-4 md:p-20 min-h-screen">
+      <h1 className="font-poppins text-xl md:text-2xl font-bold text-center p-4 md:p-20">
         Our Client
       </h1>
-      <div className="grid grid-cols-8 gap-4 p-2 animate-scroll-left">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4 p-2 animate-scroll-left">
         {imageClient1.map((image) => (
           <div
             key={image.id}
@@ -26,7 +26,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-8 gap-4 p-2 animate-scroll-right">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4 p-2 animate-scroll-right">
         {imageClient2.map((image) => (
           <div
             key={image.id}
@@ -36,7 +36,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-8 gap-4 p-2 animate-scroll-left">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4 p-2 animate-scroll-left">
         {imageClient3.map((image) => (
           <div
             key={image.id}
@@ -46,7 +46,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-8 gap-4 p-2 animate-scroll-right">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 gap-4 p-2 animate-scroll-right">
         {imageClient4.map((image) => (
           <div
             key={image.id}
@@ -56,10 +56,10 @@ const App = () => {
           </div>
         ))}
       </div>
-      <h1 className="font-poppins text-2xl font-bold text-center p-20">
+      <h1 className="font-poppins text-xl md:text-2xl font-bold text-center p-4 md:p-20">
         Our Partner
       </h1>
-      <div className="grid grid-cols-7 gap-4 p-2 animate-scroll-left">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 p-2 animate-scroll-left">
         {imagePartner1.map((image) => (
           <div
             key={image.id}
@@ -69,7 +69,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-7 gap-4 p-2 animate-scroll-right">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4 p-2 animate-scroll-right">
         {imagePartner2.map((image) => (
           <div
             key={image.id}
@@ -79,10 +79,10 @@ const App = () => {
           </div>
         ))}
       </div>
-      <h1 className="font-poppins text-2xl font-bold text-center p-20">
+      <h1 className="font-poppins text-xl md:text-2xl font-bold text-center p-4 md:p-20">
         Our Vendor
       </h1>
-      <div className="grid grid-cols-4 gap-4 p-2 animate-scroll-left">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 p-2 animate-scroll-left">
         {imageVendor1.map((image) => (
           <div
             key={image.id}
@@ -92,7 +92,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      <div className="grid grid-cols-5 gap-4 p-2 animate-scroll-right">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 p-2 animate-scroll-right">
         {imageVendor2.map((image) => (
           <div
             key={image.id}
