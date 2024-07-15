@@ -1,4 +1,4 @@
-export const imageVendor1 = [
+export const imageVendor = [
   {
     id: 1,
     title: "/public/Logo/Vendor Logo/vendor-1.jpg",
@@ -15,9 +15,6 @@ export const imageVendor1 = [
     id: 4,
     title: "/public/Logo/Vendor Logo/vendor-4.jpg",
   },
-];
-
-export const imageVendor2 = [
   {
     id: 5,
     title: "/public/Logo/Vendor Logo/vendor-5.jpg",
@@ -39,4 +36,3 @@ export const imageVendor2 = [
     title: "/public/Logo/Vendor Logo/vendor-9.jpg",
   },
 ];
-

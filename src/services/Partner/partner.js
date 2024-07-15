@@ -1,4 +1,4 @@
-export const imagePartner1 = [
+export const imagePartner = [
   {
     id: 1,
     title: "/public/Logo/Partner Logo/partner1.png",
@@ -27,9 +27,6 @@ export const imagePartner1 = [
     id: 7,
     title: "/public/Logo/Partner Logo/partner7.png",
   },
-];
-
-export const imagePartner2 = [
   {
     id: 8,
     title: "/public/Logo/Partner Logo/partner8.png",
